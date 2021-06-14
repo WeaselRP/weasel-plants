@@ -50,16 +50,16 @@ Config = {
             Name = "Coke Plant",
             Seed = "coke_seed",
             Illigal = true,
-            SeedYield = {1, 5},
+            SeedYield = {0, 3},
             Item = "coca_leaf",
             MaxAngle = 0.6,
             Stages = {
                 {model = `p_int_jewel_plant_02`, offset = vector3(0,0,-2.3), time = 80},
                 {model = `p_int_jewel_plant_02`, offset = vector3(0,0,-2.1), time = 80},
                 {model = `p_int_jewel_plant_02`, offset = vector3(0,0,-1.8), time = 80},
-                {model = `p_int_jewel_plant_02`, offset = vector3(0,0,-1.6), time = 80},
-                {model = `p_int_jewel_plant_02`, offset = vector3(0,0,-1.54), time = 80, yield = {800, 1000}},
-                {model = `p_int_jewel_plant_02`, offset = vector3(0,0,-1.45), time = 520, yield = {1100, 1700}}
+                {model = `p_int_jewel_plant_02`, offset = vector3(0,0,-1.6), time = 80, yield = {800, 1000}},
+                {model = `p_int_jewel_plant_02`, offset = vector3(0,0,-1.54), time = 80, yield = {1600, 2000}},
+                {model = `p_int_jewel_plant_02`, offset = vector3(0,0,-1.45), time = 520, yield = {2200, 3400}}
             },
             Soil = {
                 [2409420175] = 1.0,
@@ -148,9 +148,9 @@ Config = {
             Item = "acacia_bark",
             MaxAngle = 0.6,
             Stages = {
-                {model = `prop_coral_spikey_01`, offset = vector3(0,0,-3.6), time = 1},
-                {model = `prop_pot_plant_03a`, offset = vector3(0,0,-2.98), time = 1},
-                {model = `prop_pot_plant_03a`, offset = vector3(0,0,-2.15), time = 520, yield = {25, 45}}
+                {model = `prop_coral_spikey_01`, offset = vector3(0,0,-3.6), time = 120},
+                {model = `prop_pot_plant_03a`, offset = vector3(0,0,-2.98), time = 120, yield = {10, 15}},
+                {model = `prop_pot_plant_03a`, offset = vector3(0,0,-2.15), time = 1000, yield = {25, 50}}
             },
             Soil = {
                 [2409420175] = 1.0,
