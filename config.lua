@@ -149,8 +149,37 @@ Config = {
             MaxAngle = 0.6,
             Stages = {
                 {model = `prop_coral_spikey_01`, offset = vector3(0,0,-3.6), time = 120},
-                {model = `prop_pot_plant_03a`, offset = vector3(0,0,-2.98), time = 120, yield = {10, 15}},
-                {model = `prop_pot_plant_03a`, offset = vector3(0,0,-2.15), time = 1000, yield = {25, 50}}
+                {model = `prop_pot_plant_03a`, offset = vector3(0,0,-2.98), time = 120, yield = {100, 150}},
+                {model = `prop_pot_plant_03a`, offset = vector3(0,0,-2.15), time = 1000, yield = {250, 500}},
+            },
+            Soil = {
+                [2409420175] = 1.0,
+                [3008270349] = 0.8,
+                [3833216577] = 1.0,
+                [223086562] = 1.1,
+                [1333033863] = 0.9,
+                [4170197704] = 1.0,
+                [3594309083] = 0.8,
+                [2461440131] = 0.8,
+                [1109728704] = 1.5,
+                [2352068586] = 1.1,
+                [1144315879] = 0.9,
+                [581794674] = 1.1,
+                [2128369009] = 0.8,
+                [-461750719] = 1.0,
+            }
+        },
+        {
+            Name = "Poppy Plant",
+            Seed = "poppy_seed",
+            SeedYield = {0,0},
+            Item = "poppy_seed",
+            MaxAngle = 0.6,
+            Stages = {
+                {model = `prop_plant_fern_01b`, offset = vector3(0,0,-1.50), time = 120},
+                {model = `prop_plant_fern_01b`, offset = vector3(0,0,-1.45), time = 120, yield = {50, 200}},
+                {model = `prop_plant_fern_01b`, offset = vector3(0,0,-1.40), time = 60, yield = {75, 300}},
+                {model = `prop_plant_fern_01b`, offset = vector3(0,0,-1.35), time = 520, yield = {100, 500}}
             },
             Soil = {
                 [2409420175] = 1.0,
