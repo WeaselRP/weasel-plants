@@ -18,7 +18,7 @@ Config = {
             Seed = "weed_seed",
             Illigal = true,
             SeedYield = {0, 2},
-            Item = "weed",
+            Item = "fresh_weed",
             MaxAngle = 0.6,
             Stages = {
                 {model = `prop_weed_02`, offset = vector3(0,0,-2), time = 60},
